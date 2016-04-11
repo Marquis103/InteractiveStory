@@ -12,6 +12,7 @@
 		F42B7D6A1CBB41F100870B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42B7D681CBB41F100870B3A /* Main.storyboard */; };
 		F42B7D6C1CBB41F100870B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42B7D6B1CBB41F100870B3A /* Assets.xcassets */; };
 		F42B7D6F1CBB41F100870B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42B7D6D1CBB41F100870B3A /* LaunchScreen.storyboard */; };
+		F42B7D771CBB56DC00870B3A /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B7D761CBB56DC00870B3A /* InteractiveStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F42B7D6B1CBB41F100870B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42B7D6E1CBB41F100870B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F42B7D701CBB41F100870B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42B7D761CBB56DC00870B3A /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F42B7D6B1CBB41F100870B3A /* Assets.xcassets */,
 				F42B7D6D1CBB41F100870B3A /* LaunchScreen.storyboard */,
 				F42B7D701CBB41F100870B3A /* Info.plist */,
+				F42B7D761CBB56DC00870B3A /* InteractiveStory.swift */,
 			);
 			path = InteractiveStory;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42B7D771CBB56DC00870B3A /* InteractiveStory.swift in Sources */,
 				F42B7D671CBB41F100870B3A /* ViewController.swift in Sources */,
 				F42B7D651CBB41F100870B3A /* AppDelegate.swift in Sources */,
 			);
